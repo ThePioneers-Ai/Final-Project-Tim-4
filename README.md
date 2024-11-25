@@ -5,13 +5,11 @@ Please describe your Startup Campus final project here. You may should your <b>m
 
 ## Contributor
 | Full Name | Affiliation | Email | LinkedIn | Role |
-| Farrelly Theo Ariela | Universitas Sebelas Maret | farrellytheoariela@gmail.com | [link](http://www.linkedin.com/in/farrellytheo
-) | Team Member |
+| Farrelly Theo Ariela | Universitas Sebelas Maret | farrellytheoariela@gmail.com | [link](http://www.linkedin.com/in/farrellytheo) | Team Member |
 | Tata Aditya Pamungkas | Universitas Krisnadwipayana | tataadityapa@gmail.com | [link](:www.linkedin.com/in/tata-aditya-pamungkas ) | Team Lead |
 | Muhammad Raihan Rifki Asdhar | Universitas Hasanuddin | muhammadraihanrifki973@gmail.com | [link](https://www.linkedin.com/in/muhammad-raihan-rifki-asdhar) | Team Member |
 | Fakhira Ammara Raisa | Universitas Sebelas Maret | fakhiraraisa@student.uns.ac.id | [link](http://linkedin.com/in/fakhira-ammara-raisa) |Team Member |
-| Elvhan Chatisla Cosaken | President University | elvhancc@gmail.com | [link](https://www.linkedin.com/in/elvhan-chatisla-cosaken-296a5324b
-) | Team Member |
+| Elvhan Chatisla Cosaken | President University | elvhancc@gmail.com | [link](https://www.linkedin.com/in/elvhan-chatisla-cosaken-296a5324b) | Team Member |
 | Karina Aurellia Putri Murti | Universitas Sebelas Maret | karinau100704@gmail.com | [link](https://www.linkedin.com/in/karinaaurellia/) | Team Member |
 | Muhammad Fatihaturrizqi | Universitas Sebelas Maret | fatihaturrizqi@student.uns.ac.id | [link](www.linkedin.com/in/muhammad-fatihaturrizqi-b25032304) | Team Member |
 
