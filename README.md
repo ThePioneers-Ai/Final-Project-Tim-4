@@ -6,7 +6,7 @@ Please describe your Startup Campus final project here. You may should your <b>m
 ## Contributor
 | Full Name | Affiliation | Email | LinkedIn | Role |
 | --- | --- | --- | --- | --- |
-| Tata Aditya Pamungkas | Universitas Krisnadwipayana | tataadityapa@gmail.com | [link]((https://www.linkedin.com/in/tata-aditya-pamungkas ) | Team Lead |
+| Tata Aditya Pamungkas | Universitas Krisnadwipayana | tataadityapa@gmail.com | [link](https://www.linkedin.com/in/tata-aditya-pamungkas) | Team Lead |
 | Elvhan Chatisla Cosaken | President University | elvhancc@gmail.com | [link](https://www.linkedin.com/in/elvhan-chatisla-cosaken-296a5324b) | Team Member |
 | Fakhira Ammara Raisa | Universitas Sebelas Maret | fakhiraraisa@student.uns.ac.id | [link](http://linkedin.com/in/fakhira-ammara-raisa) |Team Member |
 | Farrelly Theo Ariela | Universitas Sebelas Maret | farrellytheoariela@gmail.com | [link](http://www.linkedin.com/in/farrellytheo) | Team Member |
