@@ -5,7 +5,7 @@ Please describe your Startup Campus final project here. You may should your <b>m
 
 ## Contributor
 | Full Name | Affiliation | Email | LinkedIn | Role |
-| --- | --- | --- | --- || --- |
+| --- | --- | --- | --- | --- |
 | Farrelly Theo Ariela | Universitas Sebelas Maret | farrellytheoariela@gmail.com | [link](http://www.linkedin.com/in/farrellytheo) | Team Member |
 | Tata Aditya Pamungkas | Universitas Krisnadwipayana | tataadityapa@gmail.com | [link](:www.linkedin.com/in/tata-aditya-pamungkas ) | Team Lead |
 | Muhammad Raihan Rifki Asdhar | Universitas Hasanuddin | muhammadraihanrifki973@gmail.com | [link](https://www.linkedin.com/in/muhammad-raihan-rifki-asdhar) | Team Member |
