@@ -1,7 +1,33 @@
 # FINAL PROJECT TITLE HERE
 
 ## Project Description
-Please describe your Startup Campus final project here. You may should your <b>model architecture</b> in JPEG or GIF.
+**NutriLabel: Al-Based Nutritional Label Categorization System for Food Safety**
+NutriLabel adalah sebuah sistem berbasis kecerdasan buatan (AI) yang dirancang untuk membantu pengguna menganalisis informasi label nutrisi pada produk makanan. Sistem ini memanfaatkan model EasyOCR untuk membaca dan mengolah informasi dari gambar label makanan, kemudian memberikan penilaian berupa grade berdasarkan kualitas kandungan nutrisi. Selain itu, program ini juga memberikan rekomendasi apakah kandungan nutrisi tersebut sesuai dengan kebutuhan gizi pengguna.
+
+**Fitur Utama**
+1. Pengenalan Teks pada Label Nutrisi
+   Menggunakan model EasyOCR untuk mendeteksi teks dari label makanan dengan akurasi tinggi, bahkan untuk berbagai jenis dan gaya penulisan.
+2. Kategorisasi Grade Nutrisi
+   Sistem akan mengkategorikan label makanan ke dalam grade tertentu (misalnya: A, B, C, D) berdasarkan kandungan nutrisi seperti protein, gula, garam, lemak total, kalori, takaran saji.
+3. Evaluasi Kesesuaian Nutrisi
+   Membantu pengguna menentukan apakah kandungan nutrisi pada label makanan sesuai dengan kebutuhan gizi harian pengguna.
+4. Antarmuka Pengguna Sederhana
+   Program ini dirancang untuk kemudahan penggunaan, sehingga dapat digunakan oleh siapa saja, mulai dari individu hingga profesional di bidang kesehatan.
+
+**Manfaat**
+- Membantu masyarakat meningkatkan kesadaran tentang pentingnya membaca dan memahami label nutrisi pada produk makanan.
+- Memberikan rekomendasi gizi yang lebih akurat dan sesuai dengan kebutuhan individu.
+- Mendukung pengambilan keputusan yang lebih baik dalam memilih makanan yang sehat dan aman.
+
+**Cara Kerja**
+1. Unggah Gambar Label
+   Pengguna mengunggah gambar label makanan yang ingin dianalisis.
+2. Analisis Teks dengan EasyOCR
+   Gambar diproses oleh sistem untuk mendeteksi dan mengenali teks pada label.
+3. Kategorisasi dan Evaluasi
+   Kandungan nutrisi dianalisis, dikategorikan ke dalam grade tertentu, dan dievaluasi terhadap kebutuhan pengguna.
+4. Hasil Akhir
+   Sistem memberikan hasil berupa grade, analisis kandungan nutrisi, dan rekomendasi yang dapat digunakan untuk memilih produk makanan yang sesuai.
 
 ## Contributor
 | Full Name | Affiliation | Email | LinkedIn | Role |
@@ -33,8 +59,8 @@ Please describe your Startup Campus final project here. You may should your <b>m
 | OS | Example: macOS Sonoma v14.1.1 |
 
 ## Dataset
-Describe your dataset information here. Provide a screenshot for some of your dataset samples (for example, if you're using CIFAR10 dataset, then show an image for each class).
-- Link: https://...
+Dataset yang digunakan dalam proyek *NutriLabel* dikumpulkan secara manual oleh The Pioneers (Tim 4). Data diperoleh dengan mengambil foto label nutrisi dari berbagai produk makanan yang tersedia di supermarket, kemudian diolah dan diverifikasi untuk memastikan keakuratannya. Pendekatan manual ini dilakukan untuk memastikan keberagaman data dari berbagai merek dan jenis produk, sehingga sistem dapat memberikan hasil analisis yang lebih relevan dan bermanfaat bagi pengguna..
+- Link: https://drive.google.com/drive/folders/11vDffgAP8aZ7kpM1sArhAjvqWFDTl3V-?usp=sharing
 
 ## Results
 ### Model Performance
