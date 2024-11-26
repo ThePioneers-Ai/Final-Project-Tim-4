@@ -43,11 +43,11 @@ NutriLabel adalah sebuah sistem berbasis kecerdasan buatan (AI) yang dirancang u
 ## Setup
 ### Prerequisite Packages (Dependencies)
 - pandas==2.1.0
-- openai==0.28.0
-- google-cloud-aiplatform==1.34.0
-- google-cloud-bigquery==3.12.0
-- ...
-- ...
+- OpenCV== 4.10.0
+- Matplotlib==3.8.0
+- PIL (pillow)==11.0.0
+- Numpy==1.26.4
+- Yolo==Yolov8
 
 ### Environment
 | | |
