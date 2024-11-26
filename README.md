@@ -79,11 +79,12 @@ Inform your model validation performances, as follows:
 
 Feel free to adjust the columns in the table below.
 
-| model | Jumlah Informasi Terdeteksi | Keakuratan Deteksi | Kemampuan Visualisasi | Kesesuaian dengan teks yang rumit | Kesimpulan |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| vit_b_16 | 1000 |  0.0001 | 32 | Adam | 0.093 | 88.34% |
-| vit_l_32 | 2500 | 0.00001 | 128 | SGD | 0.041 | 90.19% |
-| ... | ... | ... | ... | ... | ... | ... |
+| Model           | Jumlah Informasi Terdeteksi | Keakuratan Deteksi | Kemampuan Visualisasi | Kesesuaian dengan Teks yang Rumit | Kesimpulan |
+|------------------|-----------------------------|---------------------|------------------------|------------------------------------|------------|
+| vit_b_16        | 1000                        | 88.34%             | Baik                   | Cukup Baik                        | Cocok untuk tugas umum. |
+| vit_l_32        | 2500                        | 90.19%             | Sangat Baik            | Baik                              | Optimal untuk teks kompleks. |
+| ...             | ...                         | ...                 | ...                    | ...                               | ...        |
+
 
 #### 2. Ablation Study
 Any improvements or modifications of your base model, should be summarized in this table. Feel free to adjust the columns in the table below.
