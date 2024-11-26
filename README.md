@@ -1,7 +1,7 @@
-# FINAL PROJECT TITLE HERE
+# **NutriLabel: Al-Based Nutritional Label Categorization System for Food Safety**
+
 
 ## Project Description
-**NutriLabel: Al-Based Nutritional Label Categorization System for Food Safety**
 NutriLabel adalah sebuah sistem berbasis kecerdasan buatan (AI) yang dirancang untuk membantu pengguna menganalisis informasi label nutrisi pada produk makanan. Sistem ini memanfaatkan model EasyOCR untuk membaca dan mengolah informasi dari gambar label makanan, kemudian memberikan penilaian berupa grade berdasarkan kualitas kandungan nutrisi. Selain itu, program ini juga memberikan rekomendasi apakah kandungan nutrisi tersebut sesuai dengan kebutuhan gizi pengguna.
 
 **Fitur Utama**
