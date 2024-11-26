@@ -65,7 +65,7 @@ Dataset yang digunakan dalam proyek *NutriLabel* dikumpulkan secara manual oleh 
 
 ## Results
 ### Model Performance
-Describe all results found in your final project experiments, including hyperparameters tuning and architecture modification performances. Put it into table format. Please show pictures (of model accuracy, loss, etc.) for more clarity.
+Kami mencoba beberapa model yaitu KerasOCR, PaddleOCR, EasyOCR, dan Pytesseract OCR. Keempat model memiliki kekurangan dan kelebihanya masing masing. Pada KerasOCR, sangat sulit dibuat hingga beberapa kali error, maka dari itu kami tidak memasukanya kedalam tabel. Pada PaddleOCR mampu mengekstrak data dengan sangat baik, namun terkendala dengan visualisasi yang sangat rumit yang menyusahkan kami mengembangkan model tersebut.Pytesseract OCR memiliki arsitektur yang cukup rumit namun pendeteksian yang tidak lebih baik, model ini sangat fleksibel namun kami memutuskan untuk memilih EasyOCR. Kemudahan dalam memakai dan hasil ekstrak yang sangat baik, membuat lebih efisien bagi kami untuk mengembangkanya.
 
 #### 1. Metrics
 Inform your model validation performances, as follows:
@@ -79,15 +79,15 @@ Inform your model validation performances, as follows:
 
 Feel free to adjust the columns in the table below.
 
-| Model | Jumlah Informasi Terdeteksi | Rata Rata Skor kepercayaan diri | Kemampuan Visualisasi | Kesesuaian dengan Teks yang Rumit | Kesimpulan |
-|------------------|-----------------------------|---------------------|------------------------|------------------------------------|------------|
-| PytesseractOCR | 14 | - | Baik | Cukup Baik | Buruknya jumlah informasik yang terdeteksi dan sulitnya konfigurasi membuat kami memilih untuk memakai model lain|
-| PaddlePaddleOCR | 33 | 0.9237 | Sulit untuk visualisasi | Baik  | Optimal untuk teks kompleks, namun kami selalu gagal dalam mengeluarkan visualisasi dengan bounding box  dan sulitnya membaca dokumentasi karena berbahasa china, membuat kami lebih memilih EasyOCR |
-| EasyOCR | 35 | 0.8223  | Sangat baik | baik   | Mudah digunakan dengan akurasi confidence rate yang cukup tinggi, fleksibelitas bahasa membuat kami yakin EasyOCR sangat cocok untuk model kami |
+| Model | Jumlah Informasi Terdeteksi | Rata Rata Skor kepercayaan diri | Kemampuan Visualisasi | Kesesuaian dengan Teks yang Rumit | WER | CER | Kesimpulan |
+|---|---|---|---|---|---|---|---|
+| PytesseractOCR | 14 | - | Baik | Cukup Baik | - | - | Buruknya jumlah informasik yang terdeteksi dan sulitnya konfigurasi membuat kami memilih untuk memakai model lain|
+| PaddlePaddleOCR | 33 | 0.9237 | Sulit untuk visualisasi | Baik  | - | - | Optimal untuk teks kompleks, namun kami selalu gagal dalam mengeluarkan visualisasi dengan bounding box  dan sulitnya membaca dokumentasi karena berbahasa china, membuat kami lebih memilih EasyOCR |
+| EasyOCR | 35 | 0.8223  | Sangat baik | baik   | 472.73% | 390.16% | Mudah digunakan dengan akurasi confidence rate yang cukup tinggi, fleksibelitas bahasa membuat kami yakin EasyOCR sangat cocok untuk model kami |
 
 
 #### 2. Ablation Study
-Any improvements or modifications of your base model, should be summarized in this table. Feel free to adjust the columns in the table below.
+Kami memberikan beberapa peningkatan dari eksperiment dan penelitian yang telah kami lakukan. Kami memberikan pertajam gambar untuk usecase apabila foto dari user kurang baik. Sharped image dengan autokernel sangat efektif dalam meningkatkan akurasi model. Bisa dilihat dengan peningkatan dari 14 data menjadi 26 data yang terdeteksi. Selanjutnya ImageRotate, Karena kami membangun model lainya yaitu object detection menggunakan yolov8, beberapa kali yolo mendeteksi gambar menjadi miring, gambar miring tidak bisa diekstrak oleh OCR. Hal ini bisa di antisipasi dengan autorotate yang kami buat. Kami juga melakukan uji coba menggunakan binary Image yang telah kami bangun. namun selama penelitian, Setelah mencoba berbegai theresholding tidak ada peningkatan yang ada oleh model OCR. Sehingga, kami mengurungkan niat memakai metode tersebut.
 
 | model | Metode | Matriks Yang dipakai | Banyak kata sebelum metode | Banyak kata sesudah metode | Kesimpulan |
 | --- | --- | --- | --- | --- | --- |
