@@ -79,11 +79,11 @@ Inform your model validation performances, as follows:
 
 Feel free to adjust the columns in the table below.
 
-| Model           | Jumlah Informasi Terdeteksi | Keakuratan Deteksi | Kemampuan Visualisasi | Kesesuaian dengan Teks yang Rumit | Kesimpulan |
+| Model | Jumlah Informasi Terdeteksi | Rata Rata Skor kepercayaan diri | Kemampuan Visualisasi | Kesesuaian dengan Teks yang Rumit | Kesimpulan |
 |------------------|-----------------------------|---------------------|------------------------|------------------------------------|------------|
-| vit_b_16        | 1000                        | 88.34%             | Baik                   | Cukup Baik                        | Cocok untuk tugas umum. |
-| vit_l_32        | 2500                        | 90.19%             | Sangat Baik            | Baik                              | Optimal untuk teks kompleks. |
-| ...             | ...                         | ...                 | ...                    | ...                               | ...        |
+| PytesseractOCR | 14 | - | Baik | Cukup Baik | Buruknya jumlah informasik yang terdeteksi dan sulitnya konfigurasi membuat kami memilih untuk memakai model lain|
+| PaddlePaddleOCR | 33 | 0.9237 | Sulit untuk visualisasi | Baik  | Optimal untuk teks kompleks, namun kami selalu gagal dalam mengeluarkan visualisasi dengan bounding box  dan sulitnya membaca dokumentasi karena berbahasa china, membuat kami lebih memilih EasyOCR |
+| EasyOCR | 35 | 0.8223  | Sangat baik | baik   | Mudah digunakan dengan akurasi confidence rate yang cukup tinggi, fleksibelitas bahasa membuat kami yakin EasyOCR sangat cocok untuk model kami |
 
 
 #### 2. Ablation Study
