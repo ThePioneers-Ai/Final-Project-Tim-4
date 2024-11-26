@@ -79,11 +79,11 @@ Inform your model validation performances, as follows:
 
 Feel free to adjust the columns in the table below.
 
-| model | epoch | learning_rate | batch_size | optimizer | val_loss | val_precision | val_recall | ... |
+| model | Jumlah Informasi Terdeteksi | Keakuratan Deteksi | Kemampuan Visualisasi | Kesesuaian dengan teks yang rumit | Kesimpulan |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| vit_b_16 | 1000 |  0.0001 | 32 | Adam | 0.093 | 88.34% | 84.15% | ... |
-| vit_l_32 | 2500 | 0.00001 | 128 | SGD | 0.041 | 90.19% | 87.55% | ... |
-| ... | ... | ... | ... | ... | ... | ... | ... | ... | 
+| vit_b_16 | 1000 |  0.0001 | 32 | Adam | 0.093 | 88.34% |
+| vit_l_32 | 2500 | 0.00001 | 128 | SGD | 0.041 | 90.19% |
+| ... | ... | ... | ... | ... | ... | ... |
 
 #### 2. Ablation Study
 Any improvements or modifications of your base model, should be summarized in this table. Feel free to adjust the columns in the table below.
