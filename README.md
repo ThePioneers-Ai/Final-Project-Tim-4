@@ -95,7 +95,7 @@ Kami memberikan beberapa peningkatan dari eksperiment dan penelitian yang telah 
 | EasyOCR | Image AutoRotate | Auto(90 derajat) | 0 | 21 | Karena OCR tidak bisa mendeteksi kata apabila miring. Metode autorotate sangat krusial untuk pendeteksian dari foto user yang tidak terduga | 
 
 #### 3. Training/Validation Curve
-Insert an image regarding your training and evaluation performances (especially their losses). The aim is to assess whether your model is fit, overfit, or underfit.
+Kami menggunakan training manual menggunakan spreadsheet. Setelah berkonsultasi dan meneliti, cara paling efektif adalah secara langsung membandingkan hasil penilaian OCR dan label pada Spreedsheet. berikut adalah link spredsheetnya : 
  
 ### Testing
 Show some implementations (demos) of this model. Show **at least 10 images** of how your model performs on the testing data.
