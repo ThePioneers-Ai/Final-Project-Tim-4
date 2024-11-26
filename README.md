@@ -89,11 +89,10 @@ Feel free to adjust the columns in the table below.
 #### 2. Ablation Study
 Any improvements or modifications of your base model, should be summarized in this table. Feel free to adjust the columns in the table below.
 
-| model | Metode | Kata yang berhasil di ekstraksi |
-| --- | --- | --- |
-| EasyOCR | Conv(3x3, 64) x2 | Conv(3x3, 512) x3 |
-| EasyOCR | Conv(3x3, 32) x3 | Conv(3x3, 128) x3 | 
-| ... | ... | ... | 
+| model | Metode | Matriks Yang dipakai | Banyak kata sebelum metode | Banyak kata sesudah metode | Kesimpulan |
+| --- | --- | --- | --- | --- | --- |
+| EasyOCR | Sharped Image | AutoKernel | 14 | 26 | Sharped Image terbukti efektif untuk meningkatkan akurasi model, diharapkanya gambar yang rendah pixel dapat terbantu dengan adanya metode ini | 
+| EasyOCR | Image AutoRotate | Auto(90 derajat) | 0 | 21 | Karena OCR tidak bisa mendeteksi kata apabila miring. Metode autorotate sangat krusial untuk pendeteksian dari foto user yang tidak terduga | 
 
 #### 3. Training/Validation Curve
 Insert an image regarding your training and evaluation performances (especially their losses). The aim is to assess whether your model is fit, overfit, or underfit.
