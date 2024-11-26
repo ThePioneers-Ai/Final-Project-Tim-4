@@ -48,6 +48,7 @@ NutriLabel adalah sebuah sistem berbasis kecerdasan buatan (AI) yang dirancang u
 - PIL (pillow)==11.0.0
 - Numpy==1.26.4
 - Yolo==Yolov8
+- Easyocr==1.7.2
 
 ### Environment
 | | |
