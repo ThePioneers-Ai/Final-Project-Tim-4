@@ -4,30 +4,30 @@
 ## Project Description
 NutriLabel adalah sebuah sistem berbasis kecerdasan buatan (AI) yang dirancang untuk membantu pengguna menganalisis informasi label nutrisi pada produk makanan. Sistem ini memanfaatkan model EasyOCR untuk membaca dan mengolah informasi dari gambar label makanan, kemudian memberikan penilaian berupa grade berdasarkan kualitas kandungan nutrisi. Selain itu, program ini juga memberikan rekomendasi apakah kandungan nutrisi tersebut sesuai dengan kebutuhan gizi pengguna.
 
-**Fitur Utama**
-1. Pengenalan Teks pada Label Nutrisi
-   Menggunakan model EasyOCR untuk mendeteksi teks dari label makanan dengan akurasi tinggi, bahkan untuk berbagai jenis dan gaya penulisan.
-2. Kategorisasi Grade Nutrisi
-   Sistem akan mengkategorikan label makanan ke dalam grade tertentu (misalnya: A, B, C, D) berdasarkan kandungan nutrisi seperti protein, gula, garam, lemak total, kalori, takaran saji.
-3. Evaluasi Kesesuaian Nutrisi
-   Membantu pengguna menentukan apakah kandungan nutrisi pada label makanan sesuai dengan kebutuhan gizi harian pengguna.
-4. Antarmuka Pengguna Sederhana
-   Program ini dirancang untuk kemudahan penggunaan, sehingga dapat digunakan oleh siapa saja, mulai dari individu hingga profesional di bidang kesehatan.
+**Main Features**
+1. Text Recognition on Nutrition Labels
+   Uses the EasyOCR model to detect text from food labels with high accuracy, even for different types and styles of writing.
+2. Nutrition Grade Categorization
+   The system will categorize food labels into specific grades (e.g. A, B, C, D) based on nutritional content such as protein, sugar, salt, total fat, calories, serving size.
+3. Evaluation of Nutritional Appropriateness
+   Helps users determine whether the nutritional content of food labels is in accordance with the user's daily nutritional needs.
+4. Simple User Interface
+   The program is designed for ease of use, so it can be used by anyone, from individuals to healthcare professionals.
 
-**Manfaat**
-- Membantu masyarakat meningkatkan kesadaran tentang pentingnya membaca dan memahami label nutrisi pada produk makanan.
-- Memberikan rekomendasi gizi yang lebih akurat dan sesuai dengan kebutuhan individu.
-- Mendukung pengambilan keputusan yang lebih baik dalam memilih makanan yang sehat dan aman.
+**Benefits**
+- Help people raise awareness about the importance of reading and understanding nutrition labels on food products.
+- Provides more accurate nutritional recommendations tailored to individual needs.
+- Support better decision making in choosing healthy and safe food.
 
-**Cara Kerja**
-1. Unggah Gambar Label
-   Pengguna mengunggah gambar label makanan yang ingin dianalisis.
-2. Analisis Teks dengan EasyOCR
-   Gambar diproses oleh sistem untuk mendeteksi dan mengenali teks pada label.
-3. Kategorisasi dan Evaluasi
-   Kandungan nutrisi dianalisis, dikategorikan ke dalam grade tertentu, dan dievaluasi terhadap kebutuhan pengguna.
-4. Hasil Akhir
-   Sistem memberikan hasil berupa grade, analisis kandungan nutrisi, dan rekomendasi yang dapat digunakan untuk memilih produk makanan yang sesuai.
+**How it works**
+1. Label Image Upload
+   Users upload an image of the food label they wish to analyze.
+2. Text Analysis with EasyOCR
+   The image is processed by the system to detect and recognize the text on the label.
+3. Categorization and Evaluation
+   Nutritional content is analyzed, categorized into specific grades, and evaluated against user requirements.
+4. Final Result
+   The system provides results in the form of grade, nutritional content analysis, and recommendations that can be used to select suitable food products.
 
 ## Contributor
 | Full Name | Affiliation | Email | LinkedIn | Role |
@@ -51,7 +51,7 @@ NutriLabel adalah sebuah sistem berbasis kecerdasan buatan (AI) yang dirancang u
 - Easyocr==1.7.2
 
 ### Environment
-| | |
+| Component | Specification |
 | --- | --- |
 | CPU | Example: Apple M3 Pro 12-core CPU |
 | GPU | Example: Nvidia A100 (x1) |
@@ -60,12 +60,17 @@ NutriLabel adalah sebuah sistem berbasis kecerdasan buatan (AI) yang dirancang u
 | OS | Example: macOS Sonoma v14.1.1 |
 
 ## Dataset
-Dataset yang digunakan dalam proyek *NutriLabel* dikumpulkan secara manual oleh The Pioneers (Tim 4). Data diperoleh dengan mengambil foto label nutrisi dari berbagai produk makanan yang tersedia di supermarket, kemudian diolah dan diverifikasi untuk memastikan keakuratannya. Pendekatan manual ini dilakukan untuk memastikan keberagaman data dari berbagai merek dan jenis produk, sehingga sistem dapat memberikan hasil analisis yang lebih relevan dan bermanfaat bagi pengguna..
+The dataset used in the *NutriLabel* project was manually collected by The Pioneers (Team 4). The data was obtained by taking photos of nutrition labels from various food products available in supermarkets, then processed and verified to ensure accuracy. This manual approach was taken to ensure the diversity of data from different brands and types of products, so that the system can provide more relevant and useful analysis results for users.
 - Link: https://drive.google.com/drive/folders/11vDffgAP8aZ7kpM1sArhAjvqWFDTl3V-?usp=sharing
 
 ## Results
 ### Model Performance
-Kami mencoba beberapa model yaitu KerasOCR, PaddleOCR, EasyOCR, dan Pytesseract OCR. Keempat model memiliki kekurangan dan kelebihanya masing masing. Pada KerasOCR, sangat sulit dibuat hingga beberapa kali error, maka dari itu kami tidak memasukanya kedalam tabel. Pada PaddleOCR mampu mengekstrak data dengan sangat baik, namun terkendala dengan visualisasi yang sangat rumit yang menyusahkan kami mengembangkan model tersebut.Pytesseract OCR memiliki arsitektur yang cukup rumit namun pendeteksian yang tidak lebih baik, model ini sangat fleksibel namun kami memutuskan untuk memilih EasyOCR. Kemudahan dalam memakai dan hasil ekstrak yang sangat baik, membuat lebih efisien bagi kami untuk mengembangkanya.
+Several OCR models were evaluated, including KerasOCR, PaddleOCR, EasyOCR, and Pytesseract OCR, each with its own strengths and weaknesses:
+- KerasOCR: Challenging to implement, with repeated errors during setup. Due to these issues, it was excluded from further evaluation.
+- PaddleOCR: Demonstrated excellent data extraction capabilities but was hindered by complex visualization, making further development difficult.
+- Pytesseract OCR: Featured a flexible architecture but delivered less accurate detection compared to other models.
+- EasyOCR: Provided ease of use and high-quality extraction results, making it the most efficient and suitable choice for this project.
+Based on these findings, EasyOCR was selected as the primary model for implementation.
 
 #### 1. Metrics
 Inform your model validation performances, as follows:
@@ -77,23 +82,20 @@ Inform your model validation performances, as follows:
   - For single-image super resolution (SISR) tasks, use **Structural Similarity Index Measure (SSIM)**.
   - For conditional image-to-image translation tasks (e.g., Pix2Pix), use **Inception Score**.
 
-Feel free to adjust the columns in the table below.
-
-| Model | Jumlah Informasi Terdeteksi | Rata Rata Skor kepercayaan diri | Kemampuan Visualisasi | Kesesuaian dengan Teks yang Rumit | WER | CER | Levenshtein DIistance | Kesimpulan |
-|---|---|---|---|---|---|---|---|---|
-| PytesseractOCR | 14 | - | Baik | Cukup Baik | 88.6 | 60.5 | 1212 | Buruknya jumlah informasik yang terdeteksi dan sulitnya konfigurasi membuat kami memilih untuk memakai model lain|
-| PaddlePaddleOCR | 33 | 0.9237 | Sulit untuk visualisasi | Baik  | - | - | - | Optimal untuk teks kompleks, namun kami selalu gagal dalam mengeluarkan visualisasi dengan bounding box  dan sulitnya membaca dokumentasi karena berbahasa china, membuat kami lebih memilih EasyOCR |
-| EasyOCR | 35 | 0.8223  | Sangat baik | baik   | 42.3 | 35.85 | 717 | Mudah digunakan dengan akurasi confidence rate yang cukup tinggi, fleksibelitas bahasa membuat kami yakin EasyOCR sangat cocok untuk model kami |
-| KerasOCR | 35 | -  | Sangat baik | baik   | 42.00 | 34.85 | 697 | Sangat baik untuk mendeteksi namun sulit dikonfigurasi dan dikembangkan |
-
+| **Model** | **Amount of Detected Information** | **Average Confidence Score** | **Visualization Capability** | **Suitability for Complex Text** | **WER** | **CER** | **Levenshtein Distance** | **Conclusion** |  
+|---|---|---|---|---|---|---|---|---|  
+| **PytesseractOCR** | 14 | - | Good | Fair | 88.6 | 60.5 | 1212 | The poor amount of detected information and the difficulty of configuration led to the decision to use other models. |  
+| **PaddlePaddleOCR** | 33 | 0.9237 | Difficult to visualize | Good | - | - | - | Optimal for complex text, but difficulties in generating visualizations with bounding boxes and challenges in reading documentation (mostly in Chinese) made us choose EasyOCR instead. |  
+| **EasyOCR** | 35 | 0.8223 | Excellent | Good | 42.3 | 35.85 | 717 | Easy to use with a fairly high confidence rate. Its flexibility in supporting multiple languages makes EasyOCR the most suitable model for our project. |  
+| **KerasOCR** | 35 | - | Excellent | Good | 42.00 | 34.85 | 697 | Highly effective for detection but difficult to configure and further develop. |  
 
 #### 2. Ablation Study
-Kami memberikan beberapa peningkatan dari eksperiment dan penelitian yang telah kami lakukan. Kami memberikan pertajam gambar untuk usecase apabila foto dari user kurang baik. Sharped image dengan autokernel sangat efektif dalam meningkatkan akurasi model. Bisa dilihat dengan peningkatan dari 14 data menjadi 26 data yang terdeteksi. Selanjutnya ImageRotate, Karena kami membangun model lainya yaitu object detection menggunakan yolov8, beberapa kali yolo mendeteksi gambar menjadi miring, gambar miring tidak bisa diekstrak oleh OCR. Hal ini bisa di antisipasi dengan autorotate yang kami buat. Kami juga melakukan uji coba menggunakan binary Image yang telah kami bangun. namun selama penelitian, Setelah mencoba berbegai theresholding tidak ada peningkatan yang ada oleh model OCR. Sehingga, kami mengurungkan niat memakai metode tersebut.
+Several improvements were implemented based on experiments and research conducted. An image sharpening enhancement was introduced for use cases where the user's photo quality was suboptimal. Sharpening images using an auto-kernel proved to be highly effective in increasing model accuracy, as shown by the increase in detected data from 14 to 26 entries.  Additionally, an **ImageRotate** feature was developed. Since another model, **YOLOv8** object detection, occasionally detected tilted images, these tilted images could not be processed by OCR. This issue was mitigated by implementing an auto-rotate feature.  Experiments were also conducted using binary images developed during the research phase. However, after testing various thresholding methods, no improvement in OCR performance was observed. As a result, the binary image approach was ultimately abandoned.  
 
-| model | Metode | Matriks Yang dipakai | Banyak kata sebelum metode | Banyak kata sesudah metode | Kesimpulan |
-| --- | --- | --- | --- | --- | --- |
-| EasyOCR | Sharped Image | AutoKernel | 14 | 26 | Sharped Image terbukti efektif untuk meningkatkan akurasi model, diharapkanya gambar yang rendah pixel dapat terbantu dengan adanya metode ini | 
-| EasyOCR | Image AutoRotate | Auto(90 derajat) | 0 | 21 | Karena OCR tidak bisa mendeteksi kata apabila miring. Metode autorotate sangat krusial untuk pendeteksian dari foto user yang tidak terduga | 
+| **Model** | **Method** | **Matrix Used** | **Number of Words Before Method** | **Number of Words After Method** | **Conclusion** |  
+| --- | --- | --- | --- | --- | --- |  
+| **EasyOCR** | Sharped Image | AutoKernel | 14 | 26 | The Sharped Image method proved to be effective in improving model accuracy, especially for low-resolution images. This method helps enhance pixel quality for better detection. |  
+| **EasyOCR** | Image AutoRotate | Auto (90 degrees) | 0 | 21 | Since OCR cannot detect tilted text, the AutoRotate method is crucial for detecting text in unexpected user-submitted photos. |  
 
 #### 3. Training/Validation Curve
 Kami menggunakan training manual menggunakan spreadsheet. Setelah berkonsultasi dan meneliti, cara paling efektif adalah secara langsung membandingkan hasil penilaian OCR dan label pada Spreedsheet. berikut adalah link spredsheetnya, namun kami benar benar minta maaf karena ini masih on progress https://docs.google.com/spreadsheets/d/1qcEFGM26WgQUjSyybPk2mEAPaGHQIteSwozumr9TvGQ/edit?usp=sharing
