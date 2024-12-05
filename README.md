@@ -98,27 +98,29 @@ Several improvements were implemented based on experiments and research conducte
 | **EasyOCR** | Image AutoRotate | Auto (90 degrees) | 0 | 21 | Since OCR cannot detect tilted text, the AutoRotate method is crucial for detecting text in unexpected user-submitted photos. |  
 
 #### 3. Training/Validation Curve
-Kami menggunakan training manual menggunakan spreadsheet. Setelah berkonsultasi dan meneliti, cara paling efektif adalah secara langsung membandingkan hasil penilaian OCR dan label pada Spreedsheet. berikut adalah link spredsheetnya, namun kami benar benar minta maaf karena ini masih on progress https://docs.google.com/spreadsheets/d/1qcEFGM26WgQUjSyybPk2mEAPaGHQIteSwozumr9TvGQ/edit?usp=sharing
+NutriLabel was trained using a manual approach, involving the collection of food label images to train the OCR model. The training data was obtained by capturing images of food labels from various products in supermarkets. These images were processed and verified to ensure their accuracy, covering a wide range of brands and product types. The training focused on improving the system’s ability to accurately detect and analyze nutritional information, ensuring that the system can provide reliable recommendations for users. The results from the training were used to fine-tune the model for optimal performance.
+- Link : https://docs.google.com/spreadsheets/d/1qcEFGM26WgQUjSyybPk2mEAPaGHQIteSwozumr9TvGQ/edit?usp=sharing
  
 ### Testing
 (On Progress)
 
 ### Deployment (Optional)
-Describe and show how you deploy this project (e.g., using Streamlit or Flask), if any.
+NutriLabel is deployed using Streamlit, allowing users to upload food label images for analysis. The system utilizes the EasyOCR model to process these images and provides nutritional information, categorizing the data with a grade and offering recommendations. The application is hosted online, ensuring accessibility to users at any time.
 
 ## Supporting Documents
 ### Presentation Deck
+The NutriLabel presentation deck provides an overview of the system's core features, including OCR-based text recognition, nutritional grading, and personalized recommendations. It covers the problem being addressed, the solution implemented, model performance, and the results achieved. The deck is intended for presentations to various audiences, demonstrating the functionality and value of the system.
 - Link: https://...
 
 ### Business Model Canvas
-Provide a screenshot of your Business Model Canvas (BMC). Give some explanations, if necessary.
+The Business Model Canvas outlines the value proposition of NutriLabel. The system enables users to make informed food choices by providing personalized nutritional analysis. Revenue can be generated through subscription models for healthcare professionals, partnerships with food brands, and premium features for end-users. Key resources include expertise in artificial intelligence and OCR technology.
 
 ### Short Video
-Provide a link to your short video, that should includes the project background and how it works.
+A short video has been created to showcase the functionality of NutriLabel. The video demonstrates the process of uploading a food label image, followed by the system’s analysis and the nutritional information provided. This video is intended for promotional purposes and to explain the system’s capabilities to potential users or partners.
 - Link: https://...
 
 ## References
-Provide all links that support this final project, i.e., papers, GitHub repositories, websites, etc.
+The References section includes all relevant sources used during the development of NutriLabel. This includes academic research on OCR, AI-based nutritional systems, and documentation for the tools and libraries employed, such as EasyOCR, YOLO, and Streamlit.
 - Link: https://...
 - Link: https://...
 - Link: https://...
