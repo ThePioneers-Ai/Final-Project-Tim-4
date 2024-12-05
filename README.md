@@ -79,11 +79,12 @@ Inform your model validation performances, as follows:
 
 Feel free to adjust the columns in the table below.
 
-| Model | Jumlah Informasi Terdeteksi | Rata Rata Skor kepercayaan diri | Kemampuan Visualisasi | Kesesuaian dengan Teks yang Rumit | WER | CER | Kesimpulan |
-|---|---|---|---|---|---|---|---|
-| PytesseractOCR | 14 | - | Baik | Cukup Baik | - | - | Buruknya jumlah informasik yang terdeteksi dan sulitnya konfigurasi membuat kami memilih untuk memakai model lain|
-| PaddlePaddleOCR | 33 | 0.9237 | Sulit untuk visualisasi | Baik  | - | - | Optimal untuk teks kompleks, namun kami selalu gagal dalam mengeluarkan visualisasi dengan bounding box  dan sulitnya membaca dokumentasi karena berbahasa china, membuat kami lebih memilih EasyOCR |
-| EasyOCR | 35 | 0.8223  | Sangat baik | baik   | 472.73% | 390.16% | Mudah digunakan dengan akurasi confidence rate yang cukup tinggi, fleksibelitas bahasa membuat kami yakin EasyOCR sangat cocok untuk model kami |
+| Model | Jumlah Informasi Terdeteksi | Rata Rata Skor kepercayaan diri | Kemampuan Visualisasi | Kesesuaian dengan Teks yang Rumit | WER | CER | Levenshtein DIistance | Kesimpulan |
+|---|---|---|---|---|---|---|---|---|
+| PytesseractOCR | 14 | - | Baik | Cukup Baik | 88.6 | 60.5 | 1212 | Buruknya jumlah informasik yang terdeteksi dan sulitnya konfigurasi membuat kami memilih untuk memakai model lain|
+| PaddlePaddleOCR | 33 | 0.9237 | Sulit untuk visualisasi | Baik  | - | - | - | Optimal untuk teks kompleks, namun kami selalu gagal dalam mengeluarkan visualisasi dengan bounding box  dan sulitnya membaca dokumentasi karena berbahasa china, membuat kami lebih memilih EasyOCR |
+| EasyOCR | 35 | 0.8223  | Sangat baik | baik   | 42.3 | 35.85 | 717 | Mudah digunakan dengan akurasi confidence rate yang cukup tinggi, fleksibelitas bahasa membuat kami yakin EasyOCR sangat cocok untuk model kami |
+| KerasOCR | 35 | -  | Sangat baik | baik   | 42.00 | 34.85 | 697 | Sangat baik untuk mendeteksi namun sulit dikonfigurasi dan dikembangkan |
 
 
 #### 2. Ablation Study
