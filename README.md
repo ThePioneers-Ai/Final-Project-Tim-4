@@ -2,7 +2,7 @@
 
 
 ## Project Description
-NutriLabel adalah sebuah sistem berbasis kecerdasan buatan (AI) yang dirancang untuk membantu pengguna menganalisis informasi label nutrisi pada produk makanan. Sistem ini memanfaatkan model EasyOCR untuk membaca dan mengolah informasi dari gambar label makanan, kemudian memberikan penilaian berupa grade berdasarkan kualitas kandungan nutrisi. Selain itu, program ini juga memberikan rekomendasi apakah kandungan nutrisi tersebut sesuai dengan kebutuhan gizi pengguna.
+NutriLabel is an artificial intelligence (AI) based system designed to help users analyze nutrition label information on food products. This system utilizes the EasyOCR model to read and process information from food label images, then provides an assessment in the form of a grade based on the quality of the nutritional content. In addition, the program also provides recommendations on whether the nutritional content is in accordance with the user's nutritional needs.
 
 **Main Features**
 1. Text Recognition on Nutrition Labels
