@@ -143,4 +143,4 @@ If you find this project useful, we'd grateful if you cite this repository:
 For academic and non-commercial use only.
 
 ## Acknowledgement
-This project entitled <b>"YOUR PROJECT TITLE HERE"</b> is supported and funded by Startup Campus Indonesia and Indonesian Ministry of Education and Culture through the "**Kampus Merdeka: Magang dan Studi Independen Bersertifikasi (MSIB)**" program.
+This project entitled <b>"NutriLabel: Al-Based Nutritional Label Categorization System for Food Safety"</b> is supported and funded by Startup Campus Indonesia and Indonesian Ministry of Education and Culture through the "**Kampus Merdeka: Magang dan Studi Independen Bersertifikasi (MSIB)**" program.
