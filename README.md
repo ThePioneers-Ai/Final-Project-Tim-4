@@ -115,6 +115,8 @@ The NutriLabel presentation deck provides an overview of the system's core featu
 ### Business Model Canvas
 The Business Model Canvas outlines the value proposition of NutriLabel. The system enables users to make informed food choices by providing personalized nutritional analysis. Revenue can be generated through subscription models for healthcare professionals, partnerships with food brands, and premium features for end-users. Key resources include expertise in artificial intelligence and OCR technology.
 
+![alt text](https://github.com/ThePioneers-Ai/Final-Project-Tim-4/blob/main/pictures/BMC_NUTRILABEL%20-%20THE%20PIONEERS.png)
+
 ### Short Video
 A short video has been created to showcase the functionality of NutriLabel. The video demonstrates the process of uploading a food label image, followed by the system’s analysis and the nutritional information provided. This video is intended for promotional purposes and to explain the system’s capabilities to potential users or partners.
 - Link: https://...
