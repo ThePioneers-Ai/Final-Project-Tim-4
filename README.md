@@ -110,7 +110,7 @@ NutriLabel is deployed using Streamlit, allowing users to upload food label imag
 ## Supporting Documents
 ### Presentation Deck
 The NutriLabel presentation deck provides an overview of the system's core features, including OCR-based text recognition, nutritional grading, and personalized recommendations. It covers the problem being addressed, the solution implemented, model performance, and the results achieved. The deck is intended for presentations to various audiences, demonstrating the functionality and value of the system.
-- Link: https://...
+- Link: [https://...](https://www.canva.com/design/DAGX1IETfgo/bbwXxKoK-0iD3Yz608ST9w/edit?utm_content=DAGX1IETfgo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ### Business Model Canvas
 The Business Model Canvas outlines the value proposition of NutriLabel. The system enables users to make informed food choices by providing personalized nutritional analysis. Revenue can be generated through subscription models for healthcare professionals, partnerships with food brands, and premium features for end-users. Key resources include expertise in artificial intelligence and OCR technology.
