@@ -119,7 +119,7 @@ The Business Model Canvas outlines the value proposition of NutriLabel. The syst
 
 ### Short Video
 A short video has been created to showcase the functionality of NutriLabel. The video demonstrates the process of uploading a food label image, followed by the system’s analysis and the nutritional information provided. This video is intended for promotional purposes and to explain the system’s capabilities to potential users or partners.
-- Link: https://...
+- Link: [https://...](https://youtu.be/06TONITgYbw?si=sT4e1s9pp66lOYQH)
 
 ## References
 The References section includes all relevant sources used during the development of NutriLabel. This includes academic research on OCR, AI-based nutritional systems, and documentation for the tools and libraries employed, such as EasyOCR, YOLO, and Streamlit.
