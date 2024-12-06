@@ -132,15 +132,19 @@ The References section includes all relevant sources used during the development
 
 ## Additional Comments
 Provide your team's additional comments or final remarks for this project. For example,
-1. ...
-2. ...
-3. ...
+1. This project requires further refinement to optimize performance, as the computational cost of integrating YOLO for autorotation followed by EasyOCR processing introduces slight delays.
+2. The GPT API implementation could benefit from enhancements to enable more interactive and dynamic discussions.
+3. Deployment would be more efficient if a backend-first and frontend-later architecture were utilized.
 
 ## How to Cite
 If you find this project useful, we'd grateful if you cite this repository:
 ```
-@article{
-...
+@article{Final Project Startup Campus,
+  title={NutriLabel: Al-Based Nutritional Label Categorization System for Food Safety},
+  author={Tata Aditya Pamungkas,Elvhan Chatisla Cosaken,Fakhira Ammara Raisa,Farrelly Theo Ariela,Karina Aurellia Putri Murti,Muhammad Fatihaturrizqi,Muhammad Raihan Rifki Asdhar },
+  journal={GitHub Repository},
+  year={2024},
+  howpublished={\url{[https://github.com/username/repositoryname](https://github.com/ThePioneers-Ai/Final-Project-Tim-4)}},
 }
 ```
 
