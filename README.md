@@ -121,7 +121,7 @@ A short video has been created to showcase the functionality of NutriLabel. The 
 
 ## References
 The References section includes all relevant sources used during the development of NutriLabel. This includes academic research on OCR, AI-based nutritional systems, and documentation for the tools and libraries employed, such as EasyOCR, YOLO, and Streamlit.
-- Link: [https://...](https://www.hpb.gov.sg/docs/default-source/default-document-library/nutri-grade-simplified-ci-guide20d184e08aff46c8961a32dbeadaf465.pdf?sfvrsn=982ec24d_0)
+- Link: (https://www.hpb.gov.sg/docs/default-source/default-document-library/nutri-grade-simplified-ci-guide20d184e08aff46c8961a32dbeadaf465.pdf?sfvrsn=982ec24d_0)
 - Link: [https://...](https://youtu.be/t5xwQguk9XU?si=q16pgkdZHyV4niYT)
 - Link: [https://...](https://youtu.be/oyqNdcbKhew?si=izy8HTSD1YIKOnGg)
 - Link: [https://...](https://youtu.be/w5V5q7FcHzs?si=N57Hr0JUr1cOrSlL)
