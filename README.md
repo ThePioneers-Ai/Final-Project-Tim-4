@@ -102,7 +102,7 @@ NutriLabel was trained using a manual approach, involving the collection of food
 - Link : https://docs.google.com/spreadsheets/d/1qcEFGM26WgQUjSyybPk2mEAPaGHQIteSwozumr9TvGQ/edit?usp=sharing
  
 ### Testing
-(On Progress)
+![alt text](https://github.com/ThePioneers-Ai/Final-Project-Tim-4/blob/main/pictures/Hasil%20Deteksi%20EasyOCR.png)
 
 ### Deployment (Optional)
 NutriLabel is deployed using Streamlit, allowing users to upload food label images for analysis. The system utilizes the EasyOCR model to process these images and provides nutritional information, categorizing the data with a grade and offering recommendations. The application is hosted online, ensuring accessibility to users at any time.
